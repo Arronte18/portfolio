@@ -57,11 +57,36 @@
         </div>
     </div>
 
+    <main>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'AboutMe')" id="defaultOpen">About Me</button>
+            <button class="tablinks" onclick="openTab(event, 'Education')" >Education</button>
+            <button class="tablinks" onclick="openTab(event, 'WorkExperience')">Work Experience</button>
+        </div>
+        <div id="AboutMe" class="tabcontent">
+            <h3>Anthony Arronte Lugo</h3>
+            <p>Some header info</p>
+            <p>Who i am, my journey and whatnot</p>
+        </div>
+
+        <div id="Education" class="tabcontent">
+            <h3>University of Central Florida</h3>
+            <p>Bachelors of Science, Computer Science</p>
+            <p>Info about university experience, minor in mathematics</p>
+        </div>
+
+        <div id="WorkExperience" class="tabcontent">
+            <h3>Previous Jobs</h3>
+            <p>AI Quality assurance with DataAnnotation</p>
+            <p>Sales Assosiate with Publix</p>
+            <p>Front Office Diversity Assosiate with MCDA at UF</p>
+        </div>
+        
+    </main>
 
 
-
-
+    <script src="/js/tabs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/js/swiper.js"></script>
 </body>
 </html>
